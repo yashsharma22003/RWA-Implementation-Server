@@ -1,8 +1,3 @@
-// File: blockchain.js
-// This file contains the core logic for interacting with the blockchain contracts.
-// It's imported by server.js.
-
-"use server";
 
 const { ethers } = require('ethers');
 const IdentityProxyABI = require('../abi/@onchain-id/solidity/contracts/proxy/IdentityProxy.sol/IdentityProxy.json');

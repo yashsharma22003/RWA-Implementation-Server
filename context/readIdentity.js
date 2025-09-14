@@ -1,9 +1,9 @@
 
 const { ethers } = require('ethers');
-// Make sure the path to your IdentityRegistry ABI is correct
+
 const IdentityRegistryABI = require('../../../abi/registry/IdentityRegistry.sol/IdentityRegistry.json');
 const dotenv = require('dotenv');
-dotenv.config(); // Load environment variables from .env file
+dotenv.config(); 
 
 // --- Configuration ---
 const RPC_URL = process.env.RPC_URL;
